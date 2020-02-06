@@ -1,0 +1,13 @@
+{
+  "name": "YourWatermark",
+  "version": "1.0.0",
+  "description": "Simple app to add watermark to picture",
+  "main": "app.js",
+  "repository": "https://github.com/n/a",
+  "author": "mariPab",
+  "license": "n/a",
+  "private": false,
+  "dependencies": {
+    "jimp": "0.6.4"
+  }
+}
