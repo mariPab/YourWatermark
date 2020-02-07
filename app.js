@@ -14,6 +14,7 @@ const addTextWatermarkToImage = async function (inputFile, outputFile, text) {
     image.print(font, 10, 10, textData, image.getWidth(), image.getHeight());
     image.quality(100).write(outputFile);
     console.log('Picture has been succesfully created and saved');
+    startApp();
 };
 
 const addImageWatermarkToImage = async function (inputFile, outputFile, watermarkFile) {
@@ -28,6 +29,7 @@ const addImageWatermarkToImage = async function (inputFile, outputFile, watermar
     });
     image.quality(100).write(outputFile);
     console.log('Picture has been succesfully created and saved');
+    startApp();
 };
 
 const prepareOutputFilename = fullFileName => {
