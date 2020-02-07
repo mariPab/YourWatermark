@@ -8,6 +8,7 @@
   "license": "n/a",
   "private": false,
   "dependencies": {
+    "inquirer": "6.5.0",
     "jimp": "0.6.4"
   }
 }
